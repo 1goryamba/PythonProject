@@ -1,7 +1,29 @@
-def percents (x, y):
-    """What precentage of x is y"""
-    one_percent = x / 100
-    result = y / one_percent
-    print (str (y) + " is " + str (result) + "percents of" + str (x))
+# def MJ():
+#     print("hi")
+#
+#
+# def CP():
+#     print("bye")
+#
+# MJ()
+# CP()
+#
+# def messages():
+#     def test(): print ("hi")
+#     def test5(): print ("bye")
+#     test()
+#     test5()
+#
+# messages()
 
-    percents(200, 50)
+def main():
+    test1()
+    test2()
+
+def test1():
+    print ("hi")
+
+def test2():
+    print ("bye")
+
+main()
