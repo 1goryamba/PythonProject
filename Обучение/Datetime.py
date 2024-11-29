@@ -40,3 +40,22 @@ from datetime import datetime
 
 deadline = datetime.strptime("29/11/2024","%d/%m/%Y")
 print(deadline)
+
+from datetime import datetime
+
+now = datetime.now()
+print(now.strftime("%Y-%m-%d"))
+
+from datetime import datetime
+import locale
+locale.setlocale(locale.LC_ALL, "")
+
+now = datetime.now()
+
+
+from datetime import datetime, timedelta
+
+three_hours = timedelta(hours=3)
+print(three_hours)
+
+three_hours_thirty_minutes = timedelta (days=3, minutes=15, seconds=30)
