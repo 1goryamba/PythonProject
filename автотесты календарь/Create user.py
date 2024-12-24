@@ -19,6 +19,6 @@ payload = {
 response = requests.post(url, headers=headers, data=payload)
 
 if response.status_code == 200 or response.status_code == 201:
-    print("Профиль успешно обновлен!")
+    print("Профиль успешно создан!")
 else:
     print(f"Произошла ошибка: {response.status_code}")

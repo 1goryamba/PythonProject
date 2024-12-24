@@ -16,3 +16,4 @@ if response.status_code == 200:
     print("Успешная авторизация!")
 else:
     print(f"Произошла ошибка: {response.status_code}")
+
